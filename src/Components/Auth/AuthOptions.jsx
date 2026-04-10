@@ -1,0 +1,57 @@
+import styled from "styled-components"
+import { defaultTheme } from "../../styles/themes/default";
+import { Link } from "react-router-dom";
+import { staticImages } from "../../utils/images";
+
+
+const SignOptions = styled.div`
+    row-gap: 12px;
+
+    .sign-option {
+        column-gap: 12px;
+        height: 40px;
+        border-radius: 5px;
+        border: 1px solid ${defaultTheme.color_platinum};
+        transition: ${defaultTheme.default_transition};
+
+        &:hover {
+            transform: translateY(2px);
+            border-color: ${defaultTheme.color_white};
+        }
+
+        .sign-opt-icon {
+            img {
+                width: 18px;
+            }
+        }
+    }
+`;
+
+
+const AuthOptions = () => {
+    return (
+        <SignOptions className='grid'>
+            <Link to='/' className="sign-option flex items-center justify-center">
+                <span className="sign-opt-icon flex items-center justify-center">
+                    <img src={staticImages.google} alt="G" />
+                </span>
+
+                <span className="sign-opt-text font-medium">
+                    Continue with Google
+                </span>
+            </Link>
+
+            <Link to='/' className='sign-option flex items-center justify-center'>
+                <span className="sign-opt-icon flex items-center justify-center">
+                    <img src={staticImages.twitter} alt="T" />
+                </span>
+
+                <span className="sign-opt-text font-medium">
+                    Continue with Twitter
+                </span>
+            </Link>
+        </SignOptions>
+    )
+}
+
+export default AuthOptions
