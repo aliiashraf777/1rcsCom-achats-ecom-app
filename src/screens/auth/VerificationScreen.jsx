@@ -7,7 +7,7 @@ import { BaseButtonBlack } from "../../styles/button";
 
 
 const VerificationScreenWrapper = styled.section``;
-
+ 
 const VerificationScreen = () => {
     return (
         <VerificationScreenWrapper>

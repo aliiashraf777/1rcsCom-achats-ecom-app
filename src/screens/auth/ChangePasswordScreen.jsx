@@ -7,7 +7,7 @@ import PasswordInput from '../../Components/Auth/PasswordInput';
 import { BaseButtonBlack } from '../../styles/button';
 
 const ChangePwdScreenWrapper = styled.section``;
-
+ 
 const ChangePasswordScreen = () => {
     return (
         <ChangePwdScreenWrapper>

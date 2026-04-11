@@ -16,7 +16,7 @@ const ButtonGroupWrapper = styled.div`
     }
   }
 `;
-
+ 
 const AuthHeader = () => {
   return (
     <HeaderMainWrapper className='flex items-center'>
