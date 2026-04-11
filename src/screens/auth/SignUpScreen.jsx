@@ -23,7 +23,7 @@ const SignUpScreenWrapper = styled.section`
         margin: 0 4px;
     }
 `;
-
+ 
 const SignUpScreen = () => {
     return (
         <SignUpScreenWrapper>

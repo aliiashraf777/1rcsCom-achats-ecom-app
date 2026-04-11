@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 
 const CheckMailScreenWrapper = styled.section``;
-
+ 
 const CheckMailScreen = () => {
     return (
         <CheckMailScreenWrapper>
