@@ -137,7 +137,7 @@ const HeroSlideContent = styled.div`
         min-width: 160px;
     }
 `;
-
+ 
 const Hero = () => {
 
     const settings = {

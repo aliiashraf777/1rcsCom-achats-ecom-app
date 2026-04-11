@@ -65,7 +65,7 @@ const FeedbackItemWrapper = styled.div`
         column-gap: 4px;
     }
 `;
-
+ 
 const Feedback = () => {
 
     const settings = {

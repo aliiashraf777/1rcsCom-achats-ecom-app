@@ -73,7 +73,7 @@ const FeaturedCardWrapper = styled.div`
         }
     }
 `;
-
+ 
 const Featured = () => {
     return (
         <Section>

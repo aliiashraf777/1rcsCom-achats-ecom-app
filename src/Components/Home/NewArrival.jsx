@@ -46,7 +46,7 @@ const ArrivalSliderWrapper = styled.div`
         }
     }
 `;
-
+ 
 const NewArrival = () => {
 
     const settings = {

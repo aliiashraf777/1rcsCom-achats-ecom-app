@@ -63,7 +63,7 @@ const BrandsItemWrapper = styled.div`
         cursor: pointer;
     }
 `;
-
+ 
 const Brands = () => {
     return (
         <Section>

@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 import { Container, Section } from '../../styles/styles'
 import Title from '../Common/Title'
 import ProductList from '../Product/ProductList'
-
+ 
 const Catalog = ({ catalogTitle, products }) => {
     return (
         <Section>
