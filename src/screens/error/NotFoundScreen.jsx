@@ -21,7 +21,7 @@ const NotFoundScreenWrapper = styled.main`
     }
 `;
 
-
+ 
 const NotFoundScreen = () => {
     return (
         <NotFoundScreenWrapper className='page-py-spacing'>
