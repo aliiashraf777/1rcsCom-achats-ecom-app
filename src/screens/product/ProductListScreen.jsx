@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Container, ContentStylings, Section } from "../../styles/styles";
-import Breadcrumb from "../../Components/Common/Breadcrumb";
+import Breadcrumb from "../../Components/Common/Breadcrumb"; 
 import { Link } from "react-router-dom";
 import ProductList from '../../Components/Product/ProductList';
 import { products } from "../../data/data";
