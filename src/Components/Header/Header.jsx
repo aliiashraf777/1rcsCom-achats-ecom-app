@@ -8,7 +8,7 @@ import { Input, InputGroupWrapper } from "../../styles/form";
 import { breakpoints, defaultTheme } from "../../styles/themes/default";
 import { useDispatch } from "react-redux";
 import { toggleSidebar } from "../../redux/slices/SidebarSlice";
-
+ 
 
 const NavigationAndSearchWrapper = styled.div`
     column-gap: 20px;
