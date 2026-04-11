@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { staticImages } from '../../utils/images';
 import { defaultTheme, breakpoints } from '../../styles/themes/default';
 
-
+ 
 const FooterWrapper = styled.footer`
   padding-top: 60px;
   padding-bottom: 32px;
