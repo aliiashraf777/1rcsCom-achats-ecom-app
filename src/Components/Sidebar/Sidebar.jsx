@@ -79,7 +79,7 @@ const SideNavigationWrapper = styled.div`
         width: 100%;
     }
 `;
-
+ 
 const Sidebar = () => {
 
     const location = useLocation();
