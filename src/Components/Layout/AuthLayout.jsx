@@ -7,7 +7,7 @@ const AuthLayout = () => {
   return (
     <PageWrapper>
       <AuthHeader />
-
+ 
       <main>
         <Outlet />
       </main>
