@@ -4,7 +4,7 @@ import Breadcrumb from "../../Components/Common/Breadcrumb";
 import { Link } from "react-router-dom";
 import ProductList from '../../Components/Product/ProductList';
 import { products } from "../../data/data";
-import Title from '../../Components/common/Title';
+import Title from '../../Components/Common/Title';
 import { breakpoints, defaultTheme } from "../../styles/themes/default";
 import ProductFilter from "../../Components/Product/ProductFilter";
 
